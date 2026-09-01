@@ -55,11 +55,12 @@ Hi, I'm **Utkarsh Pal** — a student who likes building practical software, exp
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=utkraa9&show_icons=true&include_all_commits=true&count_private=false&hide_border=true&theme=github_dark"
+    src="https://raw.githubusercontent.com/utkraa9/utkraa9/output/activity-graph.svg"
     width="100%"
-    alt="Utkarsh's GitHub Activity Stats"
+    alt="Utkarsh's GitHub Activity Graph"
   />
 </p>
+
 
 
 ---
