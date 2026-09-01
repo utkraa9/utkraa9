@@ -53,7 +53,13 @@ Hi, I'm **Utkarsh Pal** — a student who likes building practical software, exp
 
 ## `activity`
 
-<p align="center"><img src="https://github-readme-activity-graph.vercel.app/graph?username=utkraa9&bg_color=0d1117&color=39d353&line=39d353&point=ffffff&area=true&hide_border=true" width="95%"></p>
+<p align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=utkraa9&theme=github-compact&hide_border=true"
+    width="95%"
+    alt="GitHub Activity Graph"
+  >
+</p>
 
 ---
 
