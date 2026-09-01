@@ -55,9 +55,9 @@ Hi, I'm **Utkarsh Pal** — a student who likes building practical software, exp
 
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/utkraa9/utkraa9/output/activity.svg"
-    width="95%"
-    alt="GitHub activity graph"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=utkraa9&theme=github-compact&hide_border=true&area=true&custom_title=My%20GitHub%20Activity"
+    width="100%"
+    alt="GitHub Activity Graph"
   />
 </p>
 
