@@ -55,11 +55,12 @@ Hi, I'm **Utkarsh Pal** — a student who likes building practical software, exp
 
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/utkraa9/utkraa9/activity/activity-graph.svg"
+    src="https://raw.githubusercontent.com/utkraa9/utkraa9/output/activity-graph.svg"
     width="100%"
     alt="Utkarsh's GitHub Activity Graph"
   />
 </p>
+
 
 
 
