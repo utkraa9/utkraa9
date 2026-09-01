@@ -89,11 +89,23 @@ AI-assisted workflow for authorized security reconnaissance and evidence collect
 
 ## `contribution snake`
 
-<p align="center"><picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/utkraa9/utkraa9/output/snake-dark.svg">
-<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/utkraa9/utkraa9/output/snake.svg">
-<img src="https://raw.githubusercontent.com/utkraa9/utkraa9/output/snake-dark.svg" alt="GitHub contribution snake">
-</picture></p>
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/utkraa9/utkraa9/output/github-contribution-grid-snake-dark.svg"
+    >
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/utkraa9/utkraa9/output/github-contribution-grid-snake.svg"
+    >
+    <img
+      src="https://raw.githubusercontent.com/utkraa9/utkraa9/output/github-contribution-grid-snake-dark.svg"
+      alt="GitHub contribution snake"
+      width="100%"
+    >
+  </picture>
+</p>
 
 ---
 
