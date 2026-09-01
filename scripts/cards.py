@@ -1,0 +1,6 @@
+import argparse,json,urllib.request
+p=argparse.ArgumentParser();p.add_argument('--user',required=True);p.add_argument('--out',default='assets');a=p.parse_args()
+def get(u):
+ r=urllib.request.Request(u,headers={'User-Agent':'utkraa9-profile'});return json.load(urllib.request.urlopen(r))
+rs=get(f'https://api.github.com/users/{a.user}/repos?per_page=100');stars=sum(r.get('stargazers_count',0) for r in rs);forks=sum(r.get('forks_count',0) for r in rs)
+s=f'''<svg xmlns="http://www.w3.org/2000/svg" width="760" height="210"><rect width="100%" height="100%" rx="18" fill="#0d1117"/><text x="30" y="38" fill="#39D353" font-family="Arial" font-size="22" font-weight="700">GitHub Snapshot</text><text x="30" y="82" fill="#e6edf3" font-family="Arial" font-size="16">Public repos</text><text x="30" y="115" fill="#39D353" font-family="Arial" font-size="30">{len(rs)}</text><text x="190" y="82" fill="#e6edf3" font-family="Arial" font-size="16">Stars</text><text x="190" y="115" fill="#39D353" font-family="Arial" font-size="30">{stars}</text><text x="310" y="82" fill="#e6edf3" font-family="Arial" font-size="16">Forks</text><text x="310" y="115" fill="#39D353" font-family="Arial" font-size="30">{forks}</text><text x="30" y="170" fill="#8b949e" font-family="Arial" font-size="14">Profile: {a.user}</text></svg>''';open(f'{a.out}/stats.svg','w').write(s)

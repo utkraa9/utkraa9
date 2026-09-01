@@ -1,0 +1,18 @@
+name: Metrics
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *'
+permissions: {contents: write}
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: assets/metrics.svg
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          user: utkraa9
+          template: classic
+          base: header, activity, community, repositories
+          config_timezone: Asia/Kolkata

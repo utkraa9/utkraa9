@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="195">
+<rect width="100%" height="100%" rx="18" fill="#0d1117"/>
+<text x="260" y="31" text-anchor="middle" fill="#e6edf3" font-family="Arial" font-size="18" font-weight="700">GitHub Languages</text>
+<text x="30" y="65" fill="#e6edf3" font-family="Arial" font-size="13">HTML</text>
+<rect x="130" y="52" width="300" height="12" rx="6" fill="#30363d"/>
+<rect x="130" y="52" width="201.0" height="12" rx="6" fill="#39D353"/>
+<text x="445" y="65" fill="#e6edf3" font-family="Arial" font-size="12">67%</text>
+<text x="30" y="120" fill="#e6edf3" font-family="Arial" font-size="13">Python</text>
+<rect x="130" y="107" width="300" height="12" rx="6" fill="#30363d"/>
+<rect x="130" y="107" width="99.0" height="12" rx="6" fill="#39D353"/>
+<text x="445" y="120" fill="#e6edf3" font-family="Arial" font-size="12">33%</text>
+</svg>
